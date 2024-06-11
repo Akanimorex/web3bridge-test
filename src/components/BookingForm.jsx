@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 
 const BookingForm = ({ onBook, desks }) => {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(1);
   const [hours, setHours] = useState(1);
   const [membership, setMembership] = useState('basic');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const type = index < 10 ? 'individual' : 'team';
+    const zeroBasedIndex  =  index - 1;
+    const type = zeroBasedIndex < 10 ? 'individual' : 'team';
     if (!desks[index]) {
-      onBook(index, hours, type, membership);
+      onBook(zeroBasedIndex, hours, type, membership);
     } else {
       alert('Desk is already booked!');
     }
