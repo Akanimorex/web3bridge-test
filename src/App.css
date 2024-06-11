@@ -18,7 +18,7 @@
 }
 
 .desk {
-  border: 1px solid #ccc;
+  border: 1px solid #4263f5;
   padding: 10px;
   width: 150px;
   text-align: center;
@@ -27,7 +27,8 @@
 }
 
 .desk.booked {
-  background-color: #f8d7da;
+  background-color: #202121;
+  border: 1px solid #202121;
 }
 
 .desk.available {
