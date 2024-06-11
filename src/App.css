@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.desk-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.desk {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 2px #cccccc56;
+}
+
+.desk.booked {
+  background-color: #f8d7da;
+}
+
+.desk.available {
+  background-color: #4263f5;
+}
+
+.booking-form {
+  margin-bottom: 20px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.dashboard {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
