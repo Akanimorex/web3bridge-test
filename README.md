@@ -18,8 +18,6 @@ This is a co-working space booking system built with React.js. It allows users t
 ## Installation
 
 1. Clone the repository:
-   ```sh
-  git clone https://github.com/Akanimorex/web3bridge-test.git
+  ```sh
+   git clone https://github.com/Akanimorex/web3bridge-test.git
    cd web3bridge-test
-   npm install
-   npm run dev
